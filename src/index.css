@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
@@ -20,4 +21,43 @@ code {
 .error-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+.social
+{
+    justify-content: flex-end;
+    display: flex;
+    
+}
+.social i
+{
+    padding-right: 30px;
+    font-size: 25px;
+    color: #9a9b9c;
+}
+.social i:hover
+{
+    color: #57A773;
+}
+
+.content {
+  background: #6FB1FC;
+  height:auto; 
+  min-height:88.8vh;
+  /* padding-bottom:60; */
+}
+
+#header {
+  background-color: #F7F8F8;
+}
+
+#bottom-bar {
+  background-color: #333333;
+  position: relative;
+  height:60px;
+  margin-top: -60px; /*negative value of footer height */
+  clear:both;
+  /* left:0; */
+  /* bottom:0; */
+  /* right:0; */
 }

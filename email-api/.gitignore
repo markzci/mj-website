@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/email-api/node_modules
 /.pnp
 .pnp.js
 
