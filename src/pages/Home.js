@@ -9,11 +9,15 @@ function Home(props) {
             <motion.div exit={{opacity:0}} animate={{
                             x: 0,
                             backgroundColor: "#2193b0",
-                            boxShadow: "330px 330px 0 rgba(0, 0, 0, 0.5)",
-                            position: "fixed",
+                            boxShadow: "130px 175px 0 rgba(0, 0, 0, 0.5)",
+                            position: "relative",
+                            maxWidth: "100%",
+                            height: '75vh'
                         }}>
             <Omni title={props.title} subTitle={props.subTitle} text={props.text}/>
+            <div className='typing'>
             <ReactTypingEffect className="typingeffect" text={['Hello! This is Mark!','Thanks for stopping by.']} speed={50} eraseDelay={1000}/>
+            </div>
             </motion.div>
         </div>
     )

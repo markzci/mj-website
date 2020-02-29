@@ -64,10 +64,9 @@ class Contact extends React.Component {
             <div>
                 <motion.div exit={{ opacity: 0 }} animate={{
                     x: 0,
-                    backgroundColor: "#2193b0",
-                    boxShadow: "30px 30px 0 rgba(0, 0, 0, 0.5)",
-                    position: "fixed",
-
+                    backgroundColor: "#a8c0ff",
+                    boxShadow: "30px 30px 40px rgba(0, 0, 0, 0.5)",
+                    position: "relative",
                 }}>
                     <Omni title={this.props.title} />
                     <Form onSubmit={this.handleSubmit}>

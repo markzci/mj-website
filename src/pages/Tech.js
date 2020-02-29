@@ -14,9 +14,9 @@ class Tech extends React.Component {
       <div>
         <motion.div exit={{ opacity: 0 }} animate={{
                     x: 0,
-                    backgroundColor: "#99f2c8",
+                    backgroundColor: "#48b1bf",
                     boxShadow: "30px 30px 0 rgba(0, 0, 0, 2)",
-                    position: "fixed",
+                    position: "relative",
                 }}>
         <Omni title={this.props.title} />
         <section className="p-3 p-lg-5 d-flex align-items-center" id="tech">
