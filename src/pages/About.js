@@ -31,7 +31,7 @@ function About(props) {
                                 to be part of a solution is something I am grateful for and keeps pushing me further.
                     </p>
                     <p>
-                        In my spare time I enjoy playing basketball, skiing, hiking and enjoying nature.
+                        In my spare time I enjoy playing basketball, skiing, working out and enjoying nature.
                     </p>
                     <span className="font-weight-bolder">
                         Work Experience:

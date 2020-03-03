@@ -28,7 +28,7 @@ class App extends React.Component {
         text: 'with a focus on Web Applications'
       },
       about: {
-        title: 'Who Am I?'
+        title: 'Introduction'
       },
       tech: {
         title: 'Technology',
